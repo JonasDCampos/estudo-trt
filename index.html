@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planner de Concurso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<dialog id="dlg">
+  <h2>Publicar no GitHub</h2>
+  <p>Salva o <b>edital.json</b> no repositório. O site atualiza em cerca de 1 minuto.</p>
+  <label>Usuário do GitHub<input id="gu" autocomplete="off"></label>
+  <label>Repositório<input id="gr" autocomplete="off"></label>
+  <label>Branch<input id="gb" value="main"></label>
+  <label>Token (acesso só a este repositório)<input id="gt" type="password" autocomplete="off"></label>
+  <p id="gm" role="status"></p>
+  <p class="hint">Para trazer para o computador: <code>git pull</code></p>
+  <div class="row"><button data-act="pubgo" class="pri">Publicar</button><button data-act="close">Fechar</button></div>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>

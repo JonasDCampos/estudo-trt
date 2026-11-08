@@ -1,0 +1,23 @@
+{
+  "concurso": { "nome": "Nome do concurso", "cargo": "Cargo", "banca": "Banca", "dataProva": "2027-03-14" },
+  "metaDia": { "horas": "4", "questoes": "30" },
+  "hoje": [
+    { "hora": "19:00–20:30", "tipo": "Teoria", "titulo": "Controle de constitucionalidade", "detalhe": "Difuso x concentrado · ADI, ADC, ADPF" },
+    { "hora": "20:45–21:30", "tipo": "Questões", "titulo": "Atos administrativos", "detalhe": "Atributos e extinção · 20 questões" },
+    { "hora": "21:45–22:15", "tipo": "Revisão", "titulo": "Crase e regência", "detalhe": "Revisão de 7 dias" }
+  ],
+  "disciplinas": [
+    { "nome": "Direito Constitucional", "topicos": [
+      { "titulo": "Controle de constitucionalidade", "subtopicos": "Modalidades · legitimados · efeitos da decisão · modulação", "teoria": true, "questoes": false, "rev24": false, "rev7": false, "rev30": false, "acertos": "" },
+      { "titulo": "Direitos e garantias fundamentais", "subtopicos": "Art. 5º · remédios constitucionais · direitos sociais", "teoria": true, "questoes": true, "rev24": true, "rev7": true, "rev30": false, "acertos": "78%" }
+    ] },
+    { "nome": "Direito Administrativo", "topicos": [
+      { "titulo": "Atos administrativos", "subtopicos": "Requisitos · atributos · espécies · anulação e revogação", "teoria": true, "questoes": false, "rev24": false, "rev7": false, "rev30": false, "acertos": "" },
+      { "titulo": "Licitações e contratos", "subtopicos": "Lei 14.133/2021 · modalidades · fases · contratos", "teoria": false, "questoes": false, "rev24": false, "rev7": false, "rev30": false, "acertos": "" }
+    ] },
+    { "nome": "Português", "topicos": [
+      { "titulo": "Crase e regência", "subtopicos": "Casos obrigatórios e facultativos · regência verbal e nominal", "teoria": true, "questoes": true, "rev24": true, "rev7": false, "rev30": false, "acertos": "" }
+    ] }
+  ],
+  "git": { "usuario": "", "repo": "", "branch": "main" }
+}

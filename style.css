@@ -1,0 +1,39 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,sans-serif;background:#F4F1EA;color:#1C2B4A}
+.wrap{display:flex;min-height:100vh}
+aside{width:264px;flex:none;background:#1C2B4A;color:#fff;padding:28px 16px;display:flex;flex-direction:column;gap:24px}
+aside .in{padding:0 12px;display:flex;flex-direction:column;gap:4px}
+.kick{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#F0A35E;font-weight:600}
+.soft{font-size:13px;color:#B8C0D4}
+.big{font-size:40px;font-weight:700;line-height:1}
+.bar{height:6px;border-radius:3px;background:#3A4D77;overflow:hidden}.bar i{display:block;height:100%;background:#F0A35E}
+main{flex:1;min-width:0;padding:32px 40px;display:flex;flex-direction:column;gap:24px}
+h1{margin:0;font-size:28px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+button{font:600 14px Inter,system-ui,sans-serif;min-height:44px;padding:0 16px;border-radius:10px;border:1px solid #C9C3B3;background:#fff;color:#1C2B4A;cursor:pointer}
+button.pri{background:#C8501E;border-color:#C8501E;color:#fff}
+button:focus-visible,input:focus-visible,[data-p]:focus-visible{outline:3px solid #F0A35E;outline-offset:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:#fff;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:4px;border-top:4px solid #1C2B4A;font-size:13px;color:#3D4659}
+.card strong{font-size:15px;color:#1C2B4A}
+.card.t-Questões{border-top-color:#C8501E}.card.t-Revisão{border-top-color:#2E7D4F}
+.box{background:#fff;border-radius:14px;padding:8px 8px 16px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:640px}
+th{font-size:12px;font-weight:600;color:#55607A;text-align:center;padding:10px 6px}
+th:first-child,td:first-child{text-align:left;padding-left:12px}
+td{padding:10px 6px;border-top:1px solid #E6E1D6;text-align:center;vertical-align:top}
+td small{display:block;font-size:12px;color:#55607A;margin-top:2px}
+tr.disc td{background:#EFEBE1;font-weight:700;padding:10px 12px;text-align:left}
+input[type=checkbox]{width:20px;height:20px;accent-color:#2E7D4F}
+.ghost{display:none}
+body.edit .ghost{display:inline-flex}
+body.edit [data-p]{outline:1px dashed #C8501E;border-radius:3px;min-width:2ch;display:inline-block}
+.x{min-height:32px;padding:0 10px;color:#9A2B0E}
+.badge{font-size:13px;color:#8F3611;font-weight:600}
+dialog{border:0;border-radius:16px;max-width:420px;width:calc(100% - 32px);padding:24px}
+dialog::backdrop{background:rgba(28,43,74,.5)}
+dialog h2{margin:0 0 8px}dialog label{display:flex;flex-direction:column;gap:4px;font-size:13px;margin-top:10px}
+dialog input{min-height:44px;border:1px solid #C9C3B3;border-radius:8px;padding:0 10px;font:inherit}
+.row{display:flex;gap:8px;margin-top:16px}.hint{font-size:13px;color:#55607A}
+@media(max-width:820px){.wrap{flex-direction:column}aside{width:100%}main{padding:20px 16px}}
